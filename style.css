@@ -1,0 +1,41 @@
+.container{
+    
+    padding-top:0rem;
+    text-align: center;
+    padding-left: 0rem;
+    
+}
+body{
+    background-color: black;
+}
+  
+.date{
+    padding:30px;
+    font-size:23px;
+    font-weight: bold;
+    height:30vh;
+    width:300px;
+    color:white;
+    background-color: rgba(0, 0, 0,.5);
+    text-align: center;
+    border:4px solid white;
+    border-radius: 50%;
+    text-align: center;
+    left:50%;
+    
+}
+h2{
+    margin-top: 60px;
+}
+@media only screen and(max-width:600px) {
+    body{
+        background-color:blanchedalmond;
+    }
+    .container{
+    
+        padding-top:10rem;
+        text-align: center;
+        padding-left: 35rem;
+        
+    }
+}
